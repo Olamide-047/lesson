@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <link rel="stylesheet" href="inclass.css">
+</head>
+<body>
+    <h1>Students Name and Scores</h1>
+
+    <form action="" method="post" id="myForm">
+        <!-- Students Name -->
+        <fieldset>
+            <label for="studentName">Student Name:</label>
+            <input type="text" id="studentName" name="studentName" placeholder="Enter student's name" required>
+        </fieldset>
+        <br>
+        <!-- Mathematics Score -->
+        <fieldset>
+            <label for="mathematicsScore">Mathematcs Score:</label>
+            <input type="number" id="mathematicsScore" name="mathematicsScore" placeholder="Enter Mathematics Score" required>
+        </fieldset>
+        <br>
+        <!-- English Score -->
+        <fieldset>
+            <label for="englishScore">English Score:</label>
+            <input type="number" id="englishScore" name="englishScore" placeholder="Enter English Score" required>
+        </fieldset>
+        <br>
+        <!-- Physics Score -->
+        <fieldset>
+            <label for="physicsScore">Physics Score:</label>
+            <input type="number" id="physicsScore" name="physicsScore" placeholder="Enter Physics Score" required>
+        </fieldset>
+        <br>
+        <input type="submit" value="Add +">
+
+    </form>
+        <br><br>
+        <table border="1" id="studentsTable">
+            <!-- To dynamically populate with JS-->
+             <tr>
+                <th>Student Name</th>
+                <th>Mathematics Score</th>
+                <th>English Score</th>
+                <th>Physics Score</th>
+             </tr>
+        </table>
+
+            <!-- <script src="inclass.js"></script> -->
+             <script src="students.js"></script>
+</body>
+</html>
