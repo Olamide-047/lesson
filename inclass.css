@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+input[type = "text"]{
+    width: 20rem;
+    text-overflow: ellipsis;
+    text-transform: capitalize;
+
+}
+table {
+    display: none;
+}
